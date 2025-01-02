@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    background-image: url(foto/Beautiful\ 4k\ Wallpaper\ Ultralinx.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 700px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+header .uho img{
+    border-radius: 200px;
+    width: 80px;
+    box-shadow: 2px 2px 5px 0 black;
+    border: 1px solid rgb(0, 0, 0);
+}
+header .hme img{
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0 black;
+    border: 1px solid rgb(23, 23, 23);
+}
+.kotakutama{
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 73vh;
+}
+.texthalamanutama{
+    display: block;
+    color: aliceblue;
+    
+}
+.texthalamanutama h1{
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 30px;
+    pointer-events: none;
+    background: linear-gradient(to right,rgb(20, 20, 20), rgb(241, 241, 241), rgb(28, 28, 28));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+hr {
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+footer .bawah1{
+    display: flex;
+    font-size: 10px;
+    margin: 20px;
+    justify-content: space-around;
+}
+.bawah1 h3{
+    background: linear-gradient(to right,rgb(169, 169, 169), rgb(241, 241, 241), rgb(156, 156, 156));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav a{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px ;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 5px 0 black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color: rgb(25, 25, 25);
+    color: aliceblue;
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.kembali a{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px ;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 5px 0 black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+    cursor: pointer;
+    font-size: 17px;
+}
+.kembali a:hover{
+    background-color: rgb(25, 25, 25);
+    color: aliceblue;
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.kotak2{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.foto1 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto1 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto2 img{
+    flex-grow: 1;
+    width: 400px;
+    height: 267px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto2 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto3 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    height: 267px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto3 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto4 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto4 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto5 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto5 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto6 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto6 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto7 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    height: 267px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto7 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto8 img{
+    flex-grow: 1;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.705);
+    transform: scale(1.0);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.foto8 img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+}
+.kalimat1{
+    position: relative;
+    display: block;
+    background:linear-gradient(to top,rgb(0, 0, 0),rgb(27, 27, 27));
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    color: white;
+    padding: 30px 30px 60px 30px;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+}
+.kalimat1 p{
+    margin-bottom: 30px;
+}
